@@ -1,5 +1,5 @@
 import './css/style.css';
-import './src/app.js';
+
 
 import Game, {
   GameSavingData,
