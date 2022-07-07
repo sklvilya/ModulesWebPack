@@ -1,12 +1,11 @@
 import './css/style.css';
+import './src/app.js';
 
-import './js/app.js';
-import './script';
 import Game, {
-  GameSavingData ,
+  GameSavingData,
   readGameSaving as loadGame,
   writeGameSaving as saveGame,
-} from "./modules/Game";
+} from './js/modules/game';
 
 console.log("app worked");
 
